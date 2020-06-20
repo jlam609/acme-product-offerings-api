@@ -1,0 +1,27 @@
+{
+  "name": "acme-product-offerings-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"server/server.js",
+    "start:dev":"node-dev --respawn server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlam609/acme-product-offerings-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlam609/acme-product-offerings-api/issues"
+  },
+  "homepage": "https://github.com/jlam609/acme-product-offerings-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.13"
+  }
+}
